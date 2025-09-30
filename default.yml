@@ -20,7 +20,7 @@ org_settings:
     org_name: My Awesome Organization
   webhook_settings:
     activities_webhook:
-      enabled_activities_webhook: true  
+      enable_activities_webhook: true  
       destination_url: https://example.com 
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
